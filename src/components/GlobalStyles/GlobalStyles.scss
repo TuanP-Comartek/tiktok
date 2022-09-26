@@ -3,6 +3,10 @@
 
 :root {
   --primary: #f50101;
+  --default-layout-width: 1150px;
+  --default-layout-header-height: 60px;
+  --default-sidebar-width: 356px;
+
 }
 
 * {
@@ -11,6 +15,8 @@
 
 html {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
