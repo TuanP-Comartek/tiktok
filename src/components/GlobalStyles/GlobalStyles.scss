@@ -7,6 +7,8 @@
   --default-layout-header-height: 60px;
   --default-sidebar-width: 356px;
 
+  --text-color: #333;
+  --black: #000;
 }
 
 * {
@@ -24,4 +26,16 @@ body {
   font-size: 1.6rem;
   list-style: 1.5;
   text-rendering: optimizeSpeed;
+}
+
+input,
+button,
+[tabindex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
 }
